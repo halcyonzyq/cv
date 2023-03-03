@@ -2,75 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Yaqi's Personal Site</title>
+    <title>My Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="images/cat.jpg" alt="Profile picture"></td>
-            <td><h1>Yaqi Zhang</h1>
-                <p><strong>Java</strong> </strong><em>Software Engineer</em></p>
-                <p>Software engineer with 10+ years of experience in Object-Oriented Java development and
-                   design. Solid background and exposure in open source, multi-threaded development and
-                   distributed systems.</p></td>
-        </tr>
-    </table>   
-    <hr size="3" noshade>
-    <h3>Education</h3>
-    <ul>
-        <li><a href="https://drexel.edu/">Drexel University</a></li>
-        <li><a href="https://english.ecnu.edu.cn/">East China Normal University</a></li>
-    </ul>
-    <hr size="3" noshade>
-    <h3>Work Experience</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Company</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2010-current</td>
-                <td>Optimum Semiconductor Technologies</td>
-            </tr>
-            <tr>
-                <td>2007-2010</td>
-                <td>Sandbridge Technologies Inc.</td>
-            </tr>    
-        </tbody>
-        <tfoot>            
-        </tfoot>     
-    </table>
-    <hr size="3" noshade>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>Java</td>   
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>C</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>C++</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-    </table>
-    
-    <hr size="3" noshade>
-    <a href="hobbies.html">My Hobbies</a>
-    <br>
-    <a href="contact-me.html">Contact Me</a>
-    <br>
-    <a href="inputs.html">Inputs</a>
-    <hr size="3" noshade>
-
+    <div class="top">
+        <img class="top-cloud" src="images/cloud.png" alt="Cloud Image">       
+        <h1>I'm Yaqi</h1>
+        <h2>a Software Developer</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="Cloud Image">
+        <img src="images/mountain.png" alt="Mountain Image">
+    </div>
+    <div class="middle">
+        <div class="profile">
+            <img src="" alt="">
+            <h2>Hello</h2>
+            <p>Software engineer with 10+ years of experience in Object-Oriented Java/C++ development,
+                testing and design.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img src="images/coding.png" alt="Coding" width="128" height="128">
+                <h3>Integrated UI tool development</h3>
+                <p>Individual contributor to design and develop Java-based IoT IDE tooling solution to
+                    interact with DSP/CPU/GPU C/C++ compiler, simulator, debugger and binary tools.</p>
+            </div>
+            <div class="skill-row">
+                <img src="images/binary-code.png" alt="Binary" width="128" height="128">
+                <h3>High performance computing</h3>
+                <p>Contributions to C library including customized instruction intrinsics. Evaluated and performed GP GPU C/C++ rasterization with OpenGL.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>Contact Me</h3>
+            <p>Ask me anything</p>
+            <a class="btn" href="mailto:yaqi.zhang@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
+    <div class="bottom">
+        <a class="footer-link" href="https://www.linkedin.com/in/yaqi-zhang-3b9a0619/">LinkedIn</a>
+        <p>© 2023 Yaqi Zhang.</p>
+    </div>
 </body>
 </html>
